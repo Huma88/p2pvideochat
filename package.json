@@ -2,7 +2,7 @@
   "name": "p2pvideochat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     // "start": "budo index.js:bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -7,6 +7,10 @@ var peer = new Peer({
     trickle: false//,stream: stream
 });
 
+var express = require("express");
+var app = express();
+var server = require("http").Server(app);
+
 peer.on("signal", function (data) {
     document.getElementById("yourId").value = JSON.stringify(data);
 });
